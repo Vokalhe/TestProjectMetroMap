@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84097E261EBA4554009D507A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84097E251EBA4554009D507A /* main.m */; };
+		84097E291EBA4554009D507A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84097E281EBA4554009D507A /* AppDelegate.m */; };
+		84097E2C1EBA4554009D507A /* EVANavigationMetroMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84097E2B1EBA4554009D507A /* EVANavigationMetroMapViewController.m */; };
+		84097E2F1EBA4554009D507A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84097E2D1EBA4554009D507A /* Main.storyboard */; };
+		84097E321EBA4554009D507A /* EVAMetroMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84097E301EBA4554009D507A /* EVAMetroMap.xcdatamodeld */; };
+		84097E341EBA4555009D507A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84097E331EBA4555009D507A /* Assets.xcassets */; };
+		84097E371EBA4555009D507A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84097E351EBA4555009D507A /* LaunchScreen.storyboard */; };
+		84097E3F1EBA463B009D507A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84097E3E1EBA463B009D507A /* MapKit.framework */; };
+		84097E431EBA6EA5009D507A /* EVAMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84097E421EBA6EA5009D507A /* EVAMKAnnotation.m */; };
+		84097E461EBA75FC009D507A /* EVARedMetroAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84097E451EBA75FC009D507A /* EVARedMetroAnnotation.m */; };
+		84097E491EBA76B1009D507A /* EVAGreenMetroAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84097E481EBA76B1009D507A /* EVAGreenMetroAnnotation.m */; };
+		840F0ECE1EBC89DD009533EB /* EVAStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0ECD1EBC89DD009533EB /* EVAStation.m */; };
+		84A8B4471EBCC137007A00EC /* EVAStationSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8B4461EBCC137007A00EC /* EVAStationSelectionViewController.m */; };
+		84A8B4491EBCDDB0007A00EC /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A8B4481EBCDDB0007A00EC /* Map.png */; };
+		84A8B44B1EBCE4F2007A00EC /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A8B44A1EBCE4F2007A00EC /* Cancel.png */; };
+		84A8B44D1EBCE8EF007A00EC /* Build.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A8B44C1EBCE8EF007A00EC /* Build.png */; };
+		84ED1E181EC267E600CA4209 /* EVABlueMetroAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED1E171EC267E600CA4209 /* EVABlueMetroAnnotation.m */; };
+		84ED1E1B1EC26D4700CA4209 /* EVAFirstMetroAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED1E1A1EC26D4700CA4209 /* EVAFirstMetroAnnotation.m */; };
+		84ED1E1E1EC26D5E00CA4209 /* EVASecondMetroAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED1E1D1EC26D5E00CA4209 /* EVASecondMetroAnnotation.m */; };
+		84F67C121EBB49EB0011B647 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F67C0D1EBB49EB0011B647 /* Blue.png */; };
+		84F67C131EBB49EC0011B647 /* First.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F67C0E1EBB49EB0011B647 /* First.png */; };
+		84F67C141EBB49EC0011B647 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F67C0F1EBB49EB0011B647 /* Green.png */; };
+		84F67C151EBB49EC0011B647 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F67C101EBB49EB0011B647 /* Red.png */; };
+		84F67C161EBB49EC0011B647 /* Second.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F67C111EBB49EB0011B647 /* Second.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84097E211EBA4554009D507A /* EVAMetroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVAMetroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84097E251EBA4554009D507A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84097E271EBA4554009D507A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84097E281EBA4554009D507A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84097E2A1EBA4554009D507A /* EVANavigationMetroMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVANavigationMetroMapViewController.h; sourceTree = "<group>"; };
+		84097E2B1EBA4554009D507A /* EVANavigationMetroMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVANavigationMetroMapViewController.m; sourceTree = "<group>"; };
+		84097E2E1EBA4554009D507A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84097E311EBA4554009D507A /* EVAMetroMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EVAMetroMap.xcdatamodel; sourceTree = "<group>"; };
+		84097E331EBA4555009D507A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84097E361EBA4555009D507A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84097E381EBA4555009D507A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84097E3E1EBA463B009D507A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84097E411EBA6EA5009D507A /* EVAMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAMKAnnotation.h; sourceTree = "<group>"; };
+		84097E421EBA6EA5009D507A /* EVAMKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAMKAnnotation.m; sourceTree = "<group>"; };
+		84097E441EBA75FC009D507A /* EVARedMetroAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVARedMetroAnnotation.h; sourceTree = "<group>"; };
+		84097E451EBA75FC009D507A /* EVARedMetroAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVARedMetroAnnotation.m; sourceTree = "<group>"; };
+		84097E471EBA76B1009D507A /* EVAGreenMetroAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAGreenMetroAnnotation.h; sourceTree = "<group>"; };
+		84097E481EBA76B1009D507A /* EVAGreenMetroAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAGreenMetroAnnotation.m; sourceTree = "<group>"; };
+		840F0ECC1EBC89DD009533EB /* EVAStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAStation.h; sourceTree = "<group>"; };
+		840F0ECD1EBC89DD009533EB /* EVAStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAStation.m; sourceTree = "<group>"; };
+		84A8B4451EBCC137007A00EC /* EVAStationSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAStationSelectionViewController.h; sourceTree = "<group>"; };
+		84A8B4461EBCC137007A00EC /* EVAStationSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAStationSelectionViewController.m; sourceTree = "<group>"; };
+		84A8B4481EBCDDB0007A00EC /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Map.png; path = images/Map.png; sourceTree = "<group>"; };
+		84A8B44A1EBCE4F2007A00EC /* Cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cancel.png; path = images/Cancel.png; sourceTree = "<group>"; };
+		84A8B44C1EBCE8EF007A00EC /* Build.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Build.png; path = images/Build.png; sourceTree = "<group>"; };
+		84ED1E161EC267E600CA4209 /* EVABlueMetroAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVABlueMetroAnnotation.h; sourceTree = "<group>"; };
+		84ED1E171EC267E600CA4209 /* EVABlueMetroAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVABlueMetroAnnotation.m; sourceTree = "<group>"; };
+		84ED1E191EC26D4700CA4209 /* EVAFirstMetroAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAFirstMetroAnnotation.h; sourceTree = "<group>"; };
+		84ED1E1A1EC26D4700CA4209 /* EVAFirstMetroAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAFirstMetroAnnotation.m; sourceTree = "<group>"; };
+		84ED1E1C1EC26D5E00CA4209 /* EVASecondMetroAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASecondMetroAnnotation.h; sourceTree = "<group>"; };
+		84ED1E1D1EC26D5E00CA4209 /* EVASecondMetroAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVASecondMetroAnnotation.m; sourceTree = "<group>"; };
+		84F67C0D1EBB49EB0011B647 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue.png; path = images/Blue.png; sourceTree = "<group>"; };
+		84F67C0E1EBB49EB0011B647 /* First.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = First.png; path = images/First.png; sourceTree = "<group>"; };
+		84F67C0F1EBB49EB0011B647 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = images/Green.png; sourceTree = "<group>"; };
+		84F67C101EBB49EB0011B647 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Red.png; path = images/Red.png; sourceTree = "<group>"; };
+		84F67C111EBB49EB0011B647 /* Second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Second.png; path = images/Second.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84097E1E1EBA4554009D507A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84097E3F1EBA463B009D507A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84097E181EBA4554009D507A = {
+			isa = PBXGroup;
+			children = (
+				84097E3E1EBA463B009D507A /* MapKit.framework */,
+				84097E231EBA4554009D507A /* EVAMetroMap */,
+				84097E221EBA4554009D507A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84097E221EBA4554009D507A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84097E211EBA4554009D507A /* EVAMetroMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84097E231EBA4554009D507A /* EVAMetroMap */ = {
+			isa = PBXGroup;
+			children = (
+				84A8B4441EBCC0B9007A00EC /* Controllers */,
+				840F0ECB1EBC89C0009533EB /* Models */,
+				84F67C021EBB35C90011B647 /* images */,
+				84097E401EBA6E7A009D507A /* Annotation */,
+				84097E271EBA4554009D507A /* AppDelegate.h */,
+				84097E281EBA4554009D507A /* AppDelegate.m */,
+				84097E2D1EBA4554009D507A /* Main.storyboard */,
+				84097E331EBA4555009D507A /* Assets.xcassets */,
+				84097E351EBA4555009D507A /* LaunchScreen.storyboard */,
+				84097E381EBA4555009D507A /* Info.plist */,
+				84097E301EBA4554009D507A /* EVAMetroMap.xcdatamodeld */,
+				84097E241EBA4554009D507A /* Supporting Files */,
+			);
+			path = EVAMetroMap;
+			sourceTree = "<group>";
+		};
+		84097E241EBA4554009D507A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84097E251EBA4554009D507A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84097E401EBA6E7A009D507A /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				84097E411EBA6EA5009D507A /* EVAMKAnnotation.h */,
+				84097E421EBA6EA5009D507A /* EVAMKAnnotation.m */,
+				84097E441EBA75FC009D507A /* EVARedMetroAnnotation.h */,
+				84097E451EBA75FC009D507A /* EVARedMetroAnnotation.m */,
+				84097E471EBA76B1009D507A /* EVAGreenMetroAnnotation.h */,
+				84097E481EBA76B1009D507A /* EVAGreenMetroAnnotation.m */,
+				84ED1E161EC267E600CA4209 /* EVABlueMetroAnnotation.h */,
+				84ED1E171EC267E600CA4209 /* EVABlueMetroAnnotation.m */,
+				84ED1E191EC26D4700CA4209 /* EVAFirstMetroAnnotation.h */,
+				84ED1E1A1EC26D4700CA4209 /* EVAFirstMetroAnnotation.m */,
+				84ED1E1C1EC26D5E00CA4209 /* EVASecondMetroAnnotation.h */,
+				84ED1E1D1EC26D5E00CA4209 /* EVASecondMetroAnnotation.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		840F0ECB1EBC89C0009533EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840F0ECC1EBC89DD009533EB /* EVAStation.h */,
+				840F0ECD1EBC89DD009533EB /* EVAStation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84A8B4441EBCC0B9007A00EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84097E2A1EBA4554009D507A /* EVANavigationMetroMapViewController.h */,
+				84097E2B1EBA4554009D507A /* EVANavigationMetroMapViewController.m */,
+				84A8B4451EBCC137007A00EC /* EVAStationSelectionViewController.h */,
+				84A8B4461EBCC137007A00EC /* EVAStationSelectionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		84F67C021EBB35C90011B647 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84A8B44C1EBCE8EF007A00EC /* Build.png */,
+				84A8B44A1EBCE4F2007A00EC /* Cancel.png */,
+				84A8B4481EBCDDB0007A00EC /* Map.png */,
+				84F67C0D1EBB49EB0011B647 /* Blue.png */,
+				84F67C0E1EBB49EB0011B647 /* First.png */,
+				84F67C0F1EBB49EB0011B647 /* Green.png */,
+				84F67C101EBB49EB0011B647 /* Red.png */,
+				84F67C111EBB49EB0011B647 /* Second.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84097E201EBA4554009D507A /* EVAMetroMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84097E3B1EBA4555009D507A /* Build configuration list for PBXNativeTarget "EVAMetroMap" */;
+			buildPhases = (
+				84097E1D1EBA4554009D507A /* Sources */,
+				84097E1E1EBA4554009D507A /* Frameworks */,
+				84097E1F1EBA4554009D507A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVAMetroMap;
+			productName = EVAMetroMap;
+			productReference = 84097E211EBA4554009D507A /* EVAMetroMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84097E191EBA4554009D507A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ehlakov Victor";
+				TargetAttributes = {
+					84097E201EBA4554009D507A = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84097E1C1EBA4554009D507A /* Build configuration list for PBXProject "EVAMetroMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84097E181EBA4554009D507A;
+			productRefGroup = 84097E221EBA4554009D507A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84097E201EBA4554009D507A /* EVAMetroMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84097E1F1EBA4554009D507A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84097E371EBA4555009D507A /* LaunchScreen.storyboard in Resources */,
+				84F67C161EBB49EC0011B647 /* Second.png in Resources */,
+				84F67C141EBB49EC0011B647 /* Green.png in Resources */,
+				84A8B4491EBCDDB0007A00EC /* Map.png in Resources */,
+				84F67C131EBB49EC0011B647 /* First.png in Resources */,
+				84097E341EBA4555009D507A /* Assets.xcassets in Resources */,
+				84097E2F1EBA4554009D507A /* Main.storyboard in Resources */,
+				84A8B44D1EBCE8EF007A00EC /* Build.png in Resources */,
+				84A8B44B1EBCE4F2007A00EC /* Cancel.png in Resources */,
+				84F67C121EBB49EB0011B647 /* Blue.png in Resources */,
+				84F67C151EBB49EC0011B647 /* Red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84097E1D1EBA4554009D507A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84097E2C1EBA4554009D507A /* EVANavigationMetroMapViewController.m in Sources */,
+				84097E321EBA4554009D507A /* EVAMetroMap.xcdatamodeld in Sources */,
+				84097E431EBA6EA5009D507A /* EVAMKAnnotation.m in Sources */,
+				84ED1E1B1EC26D4700CA4209 /* EVAFirstMetroAnnotation.m in Sources */,
+				84ED1E181EC267E600CA4209 /* EVABlueMetroAnnotation.m in Sources */,
+				84097E291EBA4554009D507A /* AppDelegate.m in Sources */,
+				84A8B4471EBCC137007A00EC /* EVAStationSelectionViewController.m in Sources */,
+				84ED1E1E1EC26D5E00CA4209 /* EVASecondMetroAnnotation.m in Sources */,
+				84097E261EBA4554009D507A /* main.m in Sources */,
+				840F0ECE1EBC89DD009533EB /* EVAStation.m in Sources */,
+				84097E461EBA75FC009D507A /* EVARedMetroAnnotation.m in Sources */,
+				84097E491EBA76B1009D507A /* EVAGreenMetroAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84097E2D1EBA4554009D507A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84097E2E1EBA4554009D507A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84097E351EBA4555009D507A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84097E361EBA4555009D507A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84097E391EBA4555009D507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84097E3A1EBA4555009D507A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84097E3C1EBA4555009D507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EVAMetroMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.EVAMetroMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84097E3D1EBA4555009D507A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EVAMetroMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.EVAMetroMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84097E1C1EBA4554009D507A /* Build configuration list for PBXProject "EVAMetroMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84097E391EBA4555009D507A /* Debug */,
+				84097E3A1EBA4555009D507A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84097E3B1EBA4555009D507A /* Build configuration list for PBXNativeTarget "EVAMetroMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84097E3C1EBA4555009D507A /* Debug */,
+				84097E3D1EBA4555009D507A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84097E301EBA4554009D507A /* EVAMetroMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84097E311EBA4554009D507A /* EVAMetroMap.xcdatamodel */,
+			);
+			currentVersion = 84097E311EBA4554009D507A /* EVAMetroMap.xcdatamodel */;
+			path = EVAMetroMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84097E191EBA4554009D507A /* Project object */;
+}
